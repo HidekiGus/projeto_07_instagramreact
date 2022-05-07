@@ -4,7 +4,7 @@ import Sidebar from "./components/Sidebar";
 function App() {
     return (
     <div>
-        <Sidebar />
+        <Sidebar image="assets/img/catanacomics.svg" username="catanacomics" name="Catana" />
     </div>
     );
 }

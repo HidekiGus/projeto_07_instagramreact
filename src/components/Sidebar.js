@@ -1,14 +1,14 @@
 import Sugestoes from "./Sugestoes";
 
-export default function Sidebar() {
+export default function Sidebar(props) {
     return (
         <div>
             <div class="sidebar">
                 <div class="usuario">
-                <img src="assets/img/catanacomics.svg" />
+                <img src={props.image} />
                 <div class="texto">
-                    <strong>catanacomics</strong>
-                    Catana
+                    <strong>{props.username}</strong>
+                    {props.name}
                 </div>
                 </div>
 
