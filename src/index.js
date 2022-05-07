@@ -9,4 +9,4 @@ function App() {
     );
 }
 
-ReactDOM.render(<App />, document.querySelector(".sugestoes"));
+ReactDOM.render(<App />, document.querySelector(".sidebarReact"));

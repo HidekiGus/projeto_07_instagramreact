@@ -2,7 +2,6 @@ import Sugestoes from "./Sugestoes";
 
 export default function Sidebar(props) {
     return (
-        <div>
             <div class="sidebar">
                 <div class="usuario">
                 <img src={props.image} />
@@ -22,6 +21,5 @@ export default function Sidebar(props) {
                 © 2021 INSTAGRAM DO FACEBOOK
                 </div>
             </div>
-        </div>
     );
 }
