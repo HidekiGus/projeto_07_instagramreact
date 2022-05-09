@@ -4,9 +4,9 @@ import Corpo from "./components/Corpo";
 function App() {
     return (
     <div>
-        <Corpo />
+        <Corpo imageSidebar="assets/img/catanacomics.svg" usernameSidebar="catanacomics" nomeSidebar="Catana" />
     </div>
     );
 }
 
-ReactDOM.render(<App />, document.querySelector(".corpoReact"));
+ReactDOM.render(<App />, document.querySelector(".corpo"));

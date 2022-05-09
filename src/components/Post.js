@@ -32,4 +32,3 @@ export default function Post(props) {
     );
 }
 
-<Post imageUsuario="assets/img/meowed.svg" nomeUsuario="meowed" imageConteudo="assets/img/gato-telefone.svg" imageCurtidas="assets/img/respondeai.svg" nomeCurtidas="respondeai" pessoasCurtidas="101.523" />
