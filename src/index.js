@@ -1,12 +1,12 @@
 import ReactDOM from "react-dom";
-import Sidebar from "./components/Sidebar";
+import Corpo from "./components/Corpo";
 
 function App() {
     return (
     <div>
-        <Sidebar image="assets/img/catanacomics.svg" username="catanacomics" name="Catana" />
+        <Corpo />
     </div>
     );
 }
 
-ReactDOM.render(<App />, document.querySelector(".sidebarReact"));
+ReactDOM.render(<App />, document.querySelector(".corpoReact"));
